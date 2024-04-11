@@ -7,5 +7,5 @@ cd /home/ec2-user/flockandfur
 git pull origin main
 nvm use v20
 npm install &&
-npm build &&
+npm run build &&
 pm2 restart flockandfur
