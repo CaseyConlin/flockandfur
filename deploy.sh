@@ -5,7 +5,7 @@ export NVM_DIR=$HOME/.nvm;
 
 cd /home/ec2-user/flockandfur
 git pull origin main
-nvm use v16
+nvm use v20
 npm install &&
 npm build &&
 pm2 restart flockandfur
