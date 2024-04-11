@@ -3,9 +3,9 @@
 export NVM_DIR=$HOME/.nvm;
 . $NVM_DIR/nvm.sh;
 
-cd /home/ubuntu/deploy_nextjs_app
-git pull origin master
+cd /home/ec2-user/flockandfur
+git pull origin main
 nvm use v16
-yarn install &&
-yarn build &&
-pm2 restart next_hello_world_app
+npm install &&
+npm build &&
+pm2 restart flockandfur
